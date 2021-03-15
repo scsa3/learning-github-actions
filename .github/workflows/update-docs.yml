@@ -1,7 +1,7 @@
 name: Update Docs
 on:
   schedule:
-    - cron:  '35 9 15 3 1'
+    - cron:  '0 10 * * *'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
