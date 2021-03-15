@@ -18,8 +18,5 @@ jobs:
       - name: Run
         run: python main.py
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: scsa3-patch-1
-          folder: docs
+      - name: Add and Commit
+        uses: EndBug/add-and-commit@v7
